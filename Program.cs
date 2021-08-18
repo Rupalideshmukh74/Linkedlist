@@ -27,6 +27,9 @@ namespace LinkedList
             list.AddInReverseOrder(30);
             list.AddInReverseOrder(56);
             list.Display();
+
+            Console.WriteLine(" Searching for element : 30");
+            list.Search(30);
         }
 
     }
