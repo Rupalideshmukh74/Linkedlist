@@ -10,7 +10,10 @@ namespace LinkedList
             LinkedList list = new LinkedList();
             Console.WriteLine(" LinkedList Sequence : 56 -> 30 -> 70 \n");
             list.Add(56);
+            list.Add(30);
             list.Add(70);
+            Console.WriteLine("\n Pop first element. \t output 30 -> 70");
+            list.RemoveFirstNode();
 
             list.InsertAtParticularPosition(1, 30);
             list.Display();
