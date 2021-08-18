@@ -12,8 +12,8 @@ namespace LinkedList
             list.Add(56);
             list.Add(30);
             list.Add(70);
-            Console.WriteLine("\n Pop first element. \t output 30 -> 70");
-            list.RemoveFirstNode();
+            Console.WriteLine("\n Remove last element --> ");
+            list.RemoveLastNode();
 
             list.InsertAtParticularPosition(1, 30);
             list.Display();
